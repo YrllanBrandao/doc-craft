@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Doc Craft</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/root.css">
+</head>
+
+<body>
+    <div class="container-fluid ">
+        <header class="p-3 container-fluid  d-flex justify-content-between">
+            <a href="#" class="navbar-brand text-white">Doc Craft</a>
+
+            <button class="btn btn-primary">Generate README</button>
+        </header>
+        <main class="container-fluid d-flex align-items-start gap-3">
+
+            <form action="" class="form-options d-flex flex-column gap-2 form-control p-3  " id="form-options">
+
+                <div class="d-flex flex-column p-0 m-0 d-flex ">
+                    <label for="label" class="form-label">Label</label>
+                    <input type="text" id="label" placeholder="E.g. Users(optional)" class="form-control">
+                </div>
+                <!-- route -->
+                <div class="d-flex flex-column p-0 m-0">
+                    <label for="route" class="form-label ">Route</label>
+                    <input type="text" id="route" placeholder="E.g. /users" class="form-control">
+                </div>
+                <!-- description -->
+                <div class="d-flex flex-column p-0 m-0">
+                    <label for="description" class="form-label">Description</label>
+                    <textarea id="description" rows="3" class="form-control"></textarea>
+                </div>
+
+                <!-- method -->
+                <label for="select-methods" class="form-label">Choose a Method</label>
+                <select class="form-select" aria-label="Default select example" id="select-methods">
+                    <option selected value="GET">GET</option>
+                    <option value="POST">POST</option>
+                    <option value="PUT">PUT</option>
+                    <option value="DELETE">DELETE</option>
+                </select>
+                <!-- request params -->
+
+              
+
+            
+                <!-- submit button -->
+                <button class="btn  btn-gen ">Add</button>
+            </form>
+
+            <div class="result-html sticky-top"></div>
+            <div class="result-markdown d-none"></div>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+
+    <!-- local scripts -->
+    <script src="/assets/javascript/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+.form-options{
+    width: 40vw;
+    background: none;
+    border: 1px solid var(--border-color-1);
+    height: auto;
+}
+.form-check-label{
+    color: var(--input-color-1);
+}
+input.form-control{
+    background: var(--bg-input-color);
+    outline: none;
+    border:  1px solid var(--border-color-1);
+    color: var(--input-color-1) !important;
+}
+input.form-control::placeholder{
+
+    color: var(--input-color-1) !important;
+}
+
+input.form-control:focus{
+    background: var(--bg-input-color);
+    border:  1px solid var(--border-color-1);
+    box-shadow: none;
+    outline: rgb(66, 153, 225) solid 1px ;
+}
+textarea.form-control{
+    background: var(--bg-input-color);
+    outline: none;
+    border:  1px solid var(--border-color-1);
+    color: var(--input-color-1) !important;
+}
+textarea.form-control:focus{
+    background: var(--bg-input-color);
+    border:  1px solid var(--border-color-1);
+    box-shadow: none;
+    outline: rgb(66, 153, 225) solid 1px ;
+}
+.form-select{
+    background: none;
+    color: var(--input-color-1);
+    border:  1px solid var(--border-color-1);
+    outline: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-select:focus{
+    outline: rgb(66, 153, 225) solid 1px;
+    box-shadow: none;
+
+}
+.form-select option{
+    background: #1e202b;
+}
+.form-label{
+    color: var(--label-color-1);
+}
+.btn-gen{
+    background: var(--bg-button-1);
+    width: 100%;
+}
+
+.btn-gen:hover, .btn-gen:focus{
+    background: var(--bg-button-hover-1);
+    color: white;
+}

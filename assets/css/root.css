@@ -1,0 +1,28 @@
+@import url("./global.css");
+@import url("./form.css");
+@import url("./preview.css");
+
+:root{
+    --bg-button-1:#03dac6;
+    --bg-button-hover-1: #02b7a3;
+    --button-color-1: #000000;
+    --bg-main-color: #1e202b;
+    --bg-input-color-1: #1c2128;
+    --border-color-1: #444c56;
+    --placeholder-color-1: #586c73;
+    --input-color-1: #a9b0b6;
+    --label-color-1: #adb8ae;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background:  var(--bg-main-color);
+}
+
+
