@@ -22,23 +22,23 @@
             <form action="" class="form-options d-flex flex-column gap-2 form-control p-3  " id="form-options">
 
                 <div class="d-flex flex-column p-0 m-0 d-flex ">
-                    <label for="label" class="form-label">Label</label>
-                    <input type="text" id="label" placeholder="E.g. Users(optional)" class="form-control">
+                    <label for="label" class="form-label ">Label</label>
+                    <input type="text" id="label" placeholder="E.g. Users(optional)" class="form-control form-child" title="Label">
                 </div>
                 <!-- route -->
                 <div class="d-flex flex-column p-0 m-0">
-                    <label for="route" class="form-label ">Route</label>
-                    <input type="text" id="route" placeholder="E.g. /users" class="form-control">
+                    <label for="route" class="form-label">Route</label>
+                    <input type="text" id="route" placeholder="E.g. /users" class="form-control form-child" required title="Route">
                 </div>
                 <!-- description -->
                 <div class="d-flex flex-column p-0 m-0">
                     <label for="description" class="form-label">Description</label>
-                    <textarea id="description" rows="3" class="form-control"></textarea>
+                    <textarea id="description" rows="3" class="form-control form-child" required title="Description"></textarea>
                 </div>
 
                 <!-- method -->
-                <label for="select-methods" class="form-label">Choose a Method</label>
-                <select class="form-select" aria-label="Default select example" id="select-methods">
+                <label for="method" class="form-label">Choose a Method</label>
+                <select class="form-select form-child" aria-label="Default select example" id="method" required title="method">
                     <option selected value="GET">GET</option>
                     <option value="POST">POST</option>
                     <option value="PUT">PUT</option>
@@ -53,7 +53,7 @@
                 <button class="btn  btn-gen ">Add</button>
             </form>
 
-            <div class="result-html sticky-top"></div>
+            <div id="result-html" class="result-html sticky-top p-1"></div>
             <div class="result-markdown d-none"></div>
         </main>
     </div>
@@ -63,7 +63,7 @@
 
 
     <!-- local scripts -->
-    <script src="/assets/javascript/index.js"></script>
+    <script src="/assets/javascript/index.js" type="module"></script>
 </body>
 
 </html>

@@ -18,7 +18,7 @@ input.form-control::placeholder{
     color: var(--input-color-1) !important;
 }
 
-input.form-control:focus{
+input.form-control:focus, input.form-control:valid{
     background: var(--bg-input-color);
     border:  1px solid var(--border-color-1);
     box-shadow: none;
