@@ -2,7 +2,7 @@
 this project aims to create documentation(readme) of Apis REST / RESTful in a simple and semi manual way
 ## DISCLAIMER
 
-The app is still in alpha, so it may not work as expected. If you find any bugs, or has an suggestion, please report them in the [issues](https://github.com/YrllanBrandao/myanimes/issues) section.
+The app is still in alpha, so it may not work as expected. If you find any bugs or has an suggestion, please report them in the [issues](https://github.com/YrllanBrandao/myanimes/issues) section.
 
 ## Features/Planned Features
 - [ ] Responsive
