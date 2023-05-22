@@ -14,7 +14,14 @@
 }
 
 
-
+#btn-project{
+    background: #2d333b;
+    
+}
+#btn-project:hover{
+    background: #22262c;
+    
+}
 @media screen and (max-width: 768px)
 {
     main.container-fluid{
