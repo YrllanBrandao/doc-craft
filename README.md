@@ -7,5 +7,5 @@ The app is still in alpha, so it may not work as expected. If you find any bugs,
 ## Features/Planned Features
 - [ ] Responsive
 
-
+## Screenshot
 ![image](https://github.com/YrllanBrandao/doc-craft/assets/77467410/d0c88641-1f45-415c-9c06-42d1be508161)
