@@ -16,7 +16,8 @@
             <a href="#" class="navbar-brand text-white">Doc Craft</a>
 
             <div>
-                <a id="btn-project" href="https://github.com/YrllanBrandao/doc-craft" class="btn text-white" target="_blank">
+                <a id="btn-project" href="https://github.com/YrllanBrandao/doc-craft" class="btn text-white"
+                    target="_blank">
                     <span class="iconify" data-icon="bi:github" style="color: #cdd9e5;" data-width="25"></span>
                     Project</a>
                 <button class="btn btn-primary" id="btn-code">Generate README</button>
@@ -28,22 +29,26 @@
 
                 <div class="d-flex flex-column p-0 m-0 d-flex ">
                     <label for="label" class="form-label ">Label</label>
-                    <input type="text" id="label" placeholder="E.g. Users(optional)" class="form-control form-child" title="Label">
+                    <input type="text" id="label" placeholder="E.g. Users(optional)" class="form-control form-child"
+                        title="Label">
                 </div>
                 <!-- route -->
                 <div class="d-flex flex-column p-0 m-0">
                     <label for="route" class="form-label">Route</label>
-                    <input type="text" id="route" placeholder="E.g. /users" class="form-control form-child" required title="Route">
+                    <input type="text" id="route" placeholder="E.g. /users" class="form-control form-child" required
+                        title="Route">
                 </div>
                 <!-- description -->
                 <div class="d-flex flex-column p-0 m-0">
                     <label for="description" class="form-label">Description</label>
-                    <textarea id="description" rows="3" class="form-control form-child" required title="Description"></textarea>
+                    <textarea id="description" rows="3" class="form-control form-child" required
+                        title="Description"></textarea>
                 </div>
 
                 <!-- method -->
                 <label for="method" class="form-label">Choose a Method</label>
-                <select class="form-select form-child" aria-label="Default select example" id="method" required title="method">
+                <select class="form-select form-child" aria-label="Default select example" id="method" required
+                    title="method">
                     <option selected value="GET">GET</option>
                     <option value="POST">POST</option>
                     <option value="PUT">PUT</option>
@@ -55,31 +60,31 @@
                 </select>
                 <!-- request params -->
 
-              
 
-            
+
+
                 <!-- submit button -->
                 <button class="btn  btn-gen ">Add</button>
             </form>
 
             <div id="result-html" class="result-html sticky-top p-1"></div>
 
-            
-            <div class="modal-code d-flex d-none flex-column justify-content-center align-items-center" id="modal-code">
-               <div class="intern-modal d-flex flex-column justify-content-center align-items-center">
-                <button class="btn btn-primary align-self-start" id="btn-copy">Copy</button>
-                <textarea  id="result-markdown"></textarea>
 
-                <p class="text-white">tap outside the textarea to close</p>
-               </div>
+            <div class="modal-code d-flex d-none flex-column justify-content-center align-items-center" id="modal-code">
+                <div class="intern-modal d-flex flex-column justify-content-center align-items-center">
+                    <button class="btn btn-primary align-self-start" id="btn-copy">Copy</button>
+                    <textarea id="result-markdown"></textarea>
+
+                    <p class="text-white">tap outside the textarea to close</p>
+                </div>
             </div>
         </main>
     </div>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
-        <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
 
     <!-- local scripts -->
     <script src="/assets/javascript/index.js" type="module"></script>

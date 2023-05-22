@@ -1,30 +1,29 @@
-
-
-
-.text-2{
+.text-2 {
     font-size: 24px;
     height: 30px;
-    font-weight: 600;    ;
+    font-weight: 600;
+    ;
 }
 
-.text-simple{
+.text-simple {
     font-size: 16px;
     font-weight: 400;
     height: 24px;
 }
 
 
-#btn-project{
+#btn-project {
     background: #2d333b;
-    
+
 }
-#btn-project:hover{
+
+#btn-project:hover {
     background: #22262c;
-    
+
 }
-@media screen and (max-width: 768px)
-{
-    main.container-fluid{
+
+@media screen and (max-width: 768px) {
+    main.container-fluid {
         flex-direction: column;
     }
 }
