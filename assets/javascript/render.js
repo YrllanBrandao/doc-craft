@@ -23,7 +23,7 @@ function convertHtmlToMarkdown(html) {
     const routeMatch = containerContent.match(routeRegex);
     const route = routeMatch ? routeMatch[1] : '';
   
-    return `## ${label}\n${hr}\n\n${description}\n\n**Method**\n\n${method}\n\n**Route**\n\n${route}\n`;
+    return `## ${label}\n${hr}\n\n${description}\n\n**Method**\n\n- ${method}\n\n**Route**\n\n- ${route}\n`;
   }
 
 
