@@ -27,7 +27,10 @@ input.form-control:focus, input.form-control:valid {
     box-shadow: none;
     outline: rgb(66, 153, 225) solid 1px;
 }
-
+input.form-control:not(:focus) {
+    outline: none !important;
+  }
+  
 textarea.form-control {
     background: var(--bg-input-color);
     outline: none;
