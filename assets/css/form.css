@@ -67,3 +67,11 @@ textarea.form-control:focus{
     background: var(--bg-button-hover-1);
     color: white;
 }
+
+
+@media screen and (max-width: 768px)
+{
+   .form-options{
+    width: 90vw;
+   }
+}

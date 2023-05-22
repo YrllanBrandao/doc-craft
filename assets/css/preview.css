@@ -10,3 +10,11 @@
 .content-row{
     color: var(--input-color-1);
 }
+
+
+@media screen and (max-width: 768px)
+{
+   .result-html{
+    width: 90vw;
+   }
+}
