@@ -4,9 +4,37 @@
     min-height: 90vh;
     border-radius: 0.375rem;
     border: 1px solid var(--border-color-1);
+    z-index: 1;
 }
 
 
+.modal-code{
+    width: 100vw;
+    height: 100vh;
+    background: var(--bg-main-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+    cursor: pointer;
+}
+.intern-modal{
+    width: 50%;
+}
+#result-markdown{
+    background: #22272e;
+    width: 100%;
+    min-height: 50vh;
+    height: auto;
+    border: 1px solid var(--border-color-1);
+    border-radius: 0.375rem;
+    padding: .5rem;
+    z-index: 10;
+    color: #85a3bd;
+    z-index: 11;
+   
+}
 .content-row{
     color: var(--input-color-1);
 }

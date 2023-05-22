@@ -53,7 +53,9 @@ export function render()
 
         
     block.innerHTML += htmlBlock;
-    targetMD.innerHTML += convertHtmlToMarkdown(htmlBlock)
+    const oldContent = targetMD.innerHTML;
+    const currentContent = oldContent + convertHtmlToMarkdown(htmlBlock);
+    targetMD.value = currentContent
 
     target.append(block);
 

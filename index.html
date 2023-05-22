@@ -15,7 +15,7 @@
         <header class="p-3 container-fluid  d-flex justify-content-between">
             <a href="#" class="navbar-brand text-white">Doc Craft</a>
 
-            <button class="btn btn-primary">Generate README</button>
+            <button class="btn btn-primary" id="btn-code">Generate README</button>
         </header>
         <main class="container-fluid d-flex align-items-start gap-3">
 
@@ -54,13 +54,23 @@
             </form>
 
             <div id="result-html" class="result-html sticky-top p-1"></div>
-            <div class="result-markdown d-none" id="result-markdown"></div>
+
+            
+            <div class="modal-code d-flex d-none flex-column justify-content-center align-items-center" id="modal-code">
+               <div class="intern-modal d-flex flex-column justify-content-center align-items-center">
+                <button class="btn btn-primary align-self-start" id="btn-copy">Copy</button>
+                <textarea  id="result-markdown"></textarea>
+
+                <p class="text-white">tap outside the textarea to close</p>
+               </div>
+            </div>
         </main>
     </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
-
+        <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
 
     <!-- local scripts -->
     <script src="/assets/javascript/index.js" type="module"></script>
